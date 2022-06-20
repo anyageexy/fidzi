@@ -23,7 +23,7 @@
   }
 
   .after_header_title {
-    font-size: 26px;
+    font-size: 24px;
     margin-bottom: 30px;
   }
   .after_header_wrapper:before {
@@ -77,7 +77,7 @@
     justify-content: space-between;
   }
   .after_header_title {
-    font-size: 48px;
+    font-size: 35px;
     margin-bottom: 34px;
   }
   .after_header_wrapper:before {
@@ -99,6 +99,10 @@
   .service_wrapper {
     padding-left: 60px;
     padding-right: 60px;
+  }
+
+  .after_header_title{
+    font-size: 48px;
   }
 }
 
@@ -320,7 +324,7 @@
     left: 0;
   }
   .service_item_txt {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
