@@ -236,7 +236,7 @@
 
   .quote_txt_wrapper {
     padding-left: 271px;
-    padding-right: 68px;
+    padding-right: 30px;
     padding-top: 70px;
     color: #ffffff;
     font-weight: 400;
@@ -253,11 +253,11 @@
   }
 
   .quote_txt_title {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .quote_txt_desc{
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
