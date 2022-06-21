@@ -184,6 +184,14 @@
   }
 }
 
+@media(min-width: 425px){
+  .quote_contain {
+    
+    padding-bottom: 150px;
+    
+  }
+}
+
 @media (min-width: 640px) {
   .quote_wrapper {
     padding: 100px 10px;
@@ -229,7 +237,7 @@
   .quote_txt_wrapper {
     padding-left: 200px;
     padding-right: 10px;
-    padding-top: 20px;
+    padding-top: 70px;
     color: #ffffff;
     font-weight: 400;
     font-size: 20px;
