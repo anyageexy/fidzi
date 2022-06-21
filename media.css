@@ -237,7 +237,7 @@
   .quote_txt_wrapper {
     padding-left: 271px;
     padding-right: 30px;
-    padding-top: 70px;
+    padding-top: 43px;
     color: #ffffff;
     font-weight: 400;
     font-size: 20px;
@@ -246,7 +246,7 @@
   .quote_txt_wrapper:before {
     width: 24px;
     height: 2px;
-    top: 74px;
+    top: 49px;
   }
   .quote_txt_wrapper_contain {
     padding-left: 33px;
