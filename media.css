@@ -55,6 +55,7 @@
   }
   .top_contain{
     background-image: url("image/head_bg.jpg");
+    max-width: 640px;
   }
   .top_contain,
   .service_wrapper {
