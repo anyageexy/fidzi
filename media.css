@@ -7,6 +7,9 @@
   .top_contain{
     background-image: url("image/head_bg_mob.jpg");
   }
+  .header_contain{
+    max-width: 300px;
+  }
   .btn_tr {
     border: 1px solid #dab860;
     padding: 7px 45px;
@@ -41,7 +44,7 @@
   .after_header_contain {
     margin-left: 46px; /*22+24*/
     margin-right: 46px;
-    max-width: 300px;
+    
   }
 }
 
