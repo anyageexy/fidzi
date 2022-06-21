@@ -187,7 +187,7 @@
 @media(min-width: 425px){
   .quote_contain {
     
-    padding-bottom: 150px;
+    padding-bottom: 120px;
     
   }
 }
@@ -195,7 +195,7 @@
 @media (min-width: 640px) {
   .quote_wrapper {
     padding: 100px 10px;
-    /* height: 500px; */
+    height: 980px;
   }
 
   .quote_contain {
