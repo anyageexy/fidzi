@@ -195,7 +195,7 @@
 @media (min-width: 640px) {
   .quote_wrapper {
     padding: 100px 10px;
-    height: 500px;
+    /* height: 500px; */
   }
 
   .quote_contain {
