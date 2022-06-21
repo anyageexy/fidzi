@@ -118,6 +118,9 @@
     width: 400px;
     height: 100px;
   }
+  .top_contain{
+    max-width: 1080px;
+  }
   .top_contain,
   .service_wrapper {
     padding-left: 60px;
@@ -134,6 +137,9 @@
   .service_wrapper {
     padding-left: 346px;
     padding-right: 346px;
+  }
+  .top_contain{
+    max-width: 1920px;
   }
 }
 
