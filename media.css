@@ -6,7 +6,6 @@
   }
   .top_contain{
     background-image: url("image/head_bg_mob.jpg");
-    /* max-width: 320px; */
   }
   .header_contain{
     max-width: 300px;
@@ -55,7 +54,6 @@
   }
   .top_contain{
     background-image: url("image/head_bg.jpg");
-    /* max-width: 640px; */
   }
   .top_contain,
   .service_wrapper {
@@ -119,7 +117,6 @@
     height: 100px;
   }
   .top_contain{
-    max-width: 1080px;
   }
   .top_contain,
   .service_wrapper {
@@ -139,7 +136,6 @@
     padding-right: 346px;
   }
   .top_contain{
-    max-width: 1920px;
   }
 } 
 
