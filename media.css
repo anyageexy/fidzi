@@ -260,6 +260,14 @@
     font-size: 20px;
   }
 }
+@media (min-width: 800px) {
+  .quote_txt_wrapper {
+    padding-top: 83px;
+  }
+  .quote_txt_wrapper:before {
+    padding-top: 88px;
+  }
+}
 
 @media (min-width: 1080px) {
   .quote_wrapper {
