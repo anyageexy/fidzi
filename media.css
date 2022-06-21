@@ -272,7 +272,7 @@
 @media (min-width: 1080px) {
   .quote_wrapper {
     padding: 140px 60px;
-    /* height: 800px; */
+    height: 800px;
   }
 
   .quote_man {
