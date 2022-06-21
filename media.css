@@ -6,6 +6,7 @@
   }
   .top_contain{
     background-image: url("image/head_bg_mob.jpg");
+    padding-top: 30px;
   }
   .header_contain{
     max-width: 300px;
@@ -113,10 +114,11 @@
 
 @media (min-width: 1080px) {
   .header_logo {
-    width: 400px;
+    width: 367px;
     height: 100px;
   }
   .top_contain{
+    padding-top: 50px;
   }
   .top_contain,
   .service_wrapper {
@@ -172,7 +174,7 @@
   }
   .quote_txt_wrapper_contain {
     padding-left: 30px;
-  } d
+  }
 
   .quote_txt_desc {
     font-size: 14px;
