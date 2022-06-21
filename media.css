@@ -187,7 +187,9 @@
   }
 
   .quote_contain {
-    background-color: #3f3f3f; /*до 640 рх фон с картинкой, после - просто серый фон*/
+    background-image: url("image/quote_bg_mob.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: 100%;
     position: relative;
