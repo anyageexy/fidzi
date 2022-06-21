@@ -141,7 +141,7 @@
   .top_contain{
     max-width: 1920px;
   }
-}
+} 
 
 /*для второго блока*/
 @media (min-width: 320px) {
