@@ -77,7 +77,7 @@ a {
 /* Первая страница */
 
 .top_contain {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   max-height: -webkit-fit-content;
   max-height: -moz-fit-content;
   max-height: fit-content;
