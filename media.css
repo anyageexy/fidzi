@@ -265,7 +265,7 @@
     padding-top: 83px;
   }
   .quote_txt_wrapper:before {
-    padding-top: 88px;
+    top: 88px;
   }
 }
 
