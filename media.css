@@ -209,8 +209,8 @@
 
   .quote_man {
     position: absolute;
-    width: 350px;
-    height: 350px;
+    width: 500px;
+    height: 500px;
     left: 0%;
     bottom: 0%;
   }
@@ -224,8 +224,8 @@
     background-repeat: no-repeat;
     background-size: contain;
 
-    width: 350px;
-    height: 350px;
+    width: 500px;
+    height: 500px;
     top: 0%;
     left: 0%;
     -webkit-transform: translate(0%, 0%);
@@ -235,7 +235,7 @@
   }
 
   .quote_txt_wrapper {
-    padding-left: 251px;
+    padding-left: 271px;
     padding-right: 68px;
     padding-top: 70px;
     color: #ffffff;
