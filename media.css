@@ -1,5 +1,8 @@
 /*для первого блока*/
 @media (min-width: 320px) {
+  .top_contain{
+    background-image: url("image/head_bg_mob.jpg");
+  }
   .btn_tr {
     border: 1px solid #dab860;
     padding: 7px 45px;
@@ -38,6 +41,9 @@
 }
 
 @media (min-width: 640px) {
+  .top_contain{
+    background-image: url("image/head_bg.jpg");
+  }
   .top_contain,
   .service_wrapper {
     padding-left: 10px;
