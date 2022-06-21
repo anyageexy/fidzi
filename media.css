@@ -41,6 +41,7 @@
   .after_header_contain {
     margin-left: 46px; /*22+24*/
     margin-right: 46px;
+    max-width: 300px;
   }
 }
 
