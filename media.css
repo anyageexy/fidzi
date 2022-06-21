@@ -6,6 +6,7 @@
   }
   .top_contain{
     background-image: url("image/head_bg_mob.jpg");
+    max-width: 320px;
   }
   .header_contain{
     max-width: 300px;
