@@ -137,18 +137,17 @@
 }
 
 @media (min-width: 1920px) {
-  .top_contain{
+  .header_contain{
     max-width: 1300px;
+    min-width: 1300px;
   }
   .top_contain,
   .service_wrapper {
     padding-left: 346px;
     padding-right: 346px;
   }
-  .header_contain{
-    max-width: 1300px;
-  }
-  .after_header_wrapper, .header_contain, .service_wrapper{
+  
+  .after_header_wrapper, .service_wrapper{
     max-width: 1300px;
   }
   .service_wrapper{
