@@ -4,7 +4,7 @@
     width: 236px;
   }
   .header_logo {
-    width: 172px;
+    width: 292px;
     height: 50px;
   }
   .top_contain{
@@ -55,7 +55,7 @@
 
 @media (min-width: 640px) {
   .header_logo {
-    width: 215px;
+    width: 300px;
   }
   .top_contain{
     background-image: url("image/head_bg.jpg");
