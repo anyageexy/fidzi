@@ -137,6 +137,9 @@
 }
 
 @media (min-width: 1920px) {
+  .top_contain{
+    max-width: 1300px;
+  }
   .top_contain,
   .service_wrapper {
     padding-left: 346px;
