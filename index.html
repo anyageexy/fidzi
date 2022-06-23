@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fidziweb</title>
+    <link type="image/x-icon" href="image/favicon.ico" rel="shortcut icon">
+    <link type="Image/x-icon" href="image/favicon.ico" rel="icon">
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="media.css" />
   </head>
   <body>
-    <div class="top_contain">
+    <div class="top_contain lazy">
       <header class="header_contain">
         <div class="header_logo">
-          <img src="image/logo.png" alt="" />
+          <img src="image/logo.svg" alt="logo" />
         </div>
 
         <div class="header_info">
@@ -61,54 +63,17 @@
     </div>
 
     <div class="quote_wrapper">
-      <div class="quote_contain">
-        <!-- блок для челика -->
-        <!-- <img
-          class="top_contain_circles"
-          data-src="image/quote_circles_desc.png"
-          src="image/cap.png"
-        /> -->
-        <!-- <img
-          class="top_contain_circles_mob"
-          data-src="image/quote_circles_mob.png"
-          src="image/cap.png"
-        /> -->
-        <!-- <style>
-          .quote_contain {
-            background-image: url("image/cap.png");
-            width: 100%;
-            height: 100%;
-            position: relative;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position-x: right; 
-          }
-          @media (min-width: 320px) {
-            .quote_contain {
-              background-image: url("image/quote_bg_mob.png");
-              background-position-y: 71%;
-            }
-          }
-
-          @media (min-width: 640px){
-            .quote_contain {
-              background-image: url("image/quote_bg.png");
-              background-position:center;
-            }
-          }
-        </style> -->
+      <div class="quote_contain lazy">
         <div class="quote_man"></div>
-
-        <!-- блок для текста -->
         <div class="quote_txt_wrapper">
           <div class="quote_txt_wrapper_contain">
             <div class="quote_txt_title">
-              “Производим сертифицированные материалы и разрабатываем
-              технологичные решения для создания современных общественных
-              интерьеров быстро и экономично”
+              “Производим сертифицированные материалы и&nbspразрабатываем
+              технологичные решения для&nbspсоздания современных общественных
+              интерьеров&nbspбыстро и экономично”
             </div>
             <div class="quote_txt_desc">
-              С уважением, команда ООО “Ласпан Групп”
+              С уважением, команда ООО&nbsp“Ласпан Групп”
             </div>
           </div>
         </div>
@@ -121,7 +86,7 @@
       <div class="service_contain">
         <div class="service_contain_item">
           <div class="service_item_img_contain">
-            <img src="image/icons/icon_1.png" alt="" />
+            <img src="image/icons/icon_1.svg" alt="icon" />
           </div>
           <div class="service_item_txt">
             <span>1.</span>
@@ -130,7 +95,7 @@
         </div>
         <div class="service_contain_item">
           <div class="service_item_img_contain">
-            <img src="image/icons/icon_2.png" alt="" />
+            <img src="image/icons/icon_2.svg" alt="icon" />
           </div>
           <div class="service_item_txt">
             <span>2.</span>
@@ -139,7 +104,7 @@
         </div>
         <div class="service_contain_item">
           <div class="service_item_img_contain">
-            <img src="image/icons/icon_3.png" alt="" />
+            <img src="image/icons/icon_3.svg" alt="icon" />
           </div>
           <div class="service_item_txt">
             <span>3.</span>
@@ -148,7 +113,7 @@
         </div>
         <div class="service_contain_item">
           <div class="service_item_img_contain">
-            <img src="image/icons/icon_4.png" alt="" />
+            <img src="image/icons/icon_4.svg" alt="icon" />
           </div>
           <div class="service_item_txt">
             <span>4.</span>
@@ -157,7 +122,7 @@
         </div>
         <div class="service_contain_item">
           <div class="service_item_img_contain">
-            <img src="image/icons/icon_5.png" alt="" />
+            <img src="image/icons/icon_5.svg" alt="icon" />
           </div>
           <div class="service_item_txt">
             <span>5.</span>
@@ -166,7 +131,8 @@
         </div>
       </div>
     </div>
-
+   
     <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </body>
 </html>

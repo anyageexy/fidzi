@@ -1,5 +1,8 @@
 /*для первого блока*/
 @media (min-width: 320px) {
+  .btn{
+    width: 236px;
+  }
   .header_logo {
     width: 150px;
     height: 50px;
@@ -27,7 +30,7 @@
     padding-right: 10px;
   }
   .after_header_wrapper {
-    margin-top: 102px;
+    margin-top: 90px;
   }
   .after_header_desc {
     margin-bottom: 30px;
@@ -41,7 +44,7 @@
   .after_header_wrapper:before {
     width: 24px;
     height: 2px;
-    margin-top: 28px;
+    margin-top: 6px;
   }
   .after_header_contain {
     margin-left: 46px; /*22+24*/
@@ -76,7 +79,7 @@
     background-color: #dab860;
   }
   .after_header_wrapper {
-    margin-top: 115px;
+    margin-top: 90px;
     padding-bottom: 100px;
   }
 
@@ -101,7 +104,7 @@
   }
   .after_header_wrapper:before {
     width: 47px;
-    margin-top: 44px;
+    margin-top: 11px;
   }
   .after_header_contain {
     margin-left: 69px; /*22+47*/
@@ -139,7 +142,16 @@
     padding-left: 346px;
     padding-right: 346px;
   }
-  .top_contain{
+  .header_contain{
+    max-width: 1300px;
+  }
+  .after_header_wrapper, .header_contain, .service_wrapper{
+    max-width: 1300px;
+  }
+  .service_wrapper{
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
   }
 } 
 
@@ -147,7 +159,6 @@
 @media (min-width: 320px) {
   .quote_wrapper {
     padding: 40px 10px;
-    /* height: 450px; */
   }
   .quote_contain {
     background-image: url("image/quote_bg_mob.png");
@@ -285,7 +296,6 @@
     height: 600px;
   }
 
-  /*sf;lb,me;sdlgb,des*/
   .quote_txt_wrapper {
     padding-left: 350px;
     padding-right: 70px;
@@ -312,84 +322,34 @@
 
 @media (min-width: 1920px) {
   .quote_wrapper {
-    padding: 140px 346px;
+  }
+  .quote_contain{
+    max-width: 1300px;
+    margin: 0 auto;
   }
 }
 
 /*блок о услугах*/
-/* @media (min-width: 320px) {
-  .service_wrapper {
-    margin-bottom: 40px;
-  }
-  .service_contain > div {
-    height: 191px;
-    padding: 24px 27px 26px 20px;
-  }
-
-  .service_item_img_contain {
-    margin-bottom: 49px;
-  }
-
+ @media (min-width: 320px) {
   .service_txt_wrapper_contain {
-    position: relative;
-    padding-left: 36px;
     color: #3f3f3f;
     font-size: 24px;
-    margin-bottom: 20px;
   }
   .service_item_txt {
-    font-size: 14px;
+    font-weight: 500;
   }
 }
-
-@media (min-width: 640px) {
-  .service_contain > div {
-    height: 200px;
-  }
-}
-
-@media (min-width: 1080px) {
-  .service_wrapper {
-    margin-bottom: 90px;
-  }
-  .service_contain > div {
-    min-height: 240px;
-    padding: 30px 28px 36px 25px;
-  }
-
-  .service_item_img_contain {
-    margin-bottom: 68px;
-  }
-
-  .service_txt_wrapper_contain {
-    padding-left: 69px;
-    color: #3f3f3f;
-    font-size: 40px;
-    margin-bottom: 50px;
-  }
-
-  .service_txt_wrapper_contain:before {
-    width: 47px;
-    top: 9px;
-    left: 0;
-  }
-  .service_item_txt {
-    font-size: 18px;
-  }
-}
-
-@media (min-width: 1920px) {
-  .service_contain > div {
-    min-height: 258px; */
-    /* padding: 30px 28px 36px 25px; */
-  /* }
-} */
-
 
 @media(min-width: 320px){
+  .service_contain{
+    margin-top: 20px;
+    -webkit-box-pack:start;
+        -ms-flex-pack:start;
+            justify-content:flex-start;
+  }
   .service_contain > div {
-    width: 45%;
-    margin-right: 10px;
+    width: 48%;
+    margin-right: 3%;
     margin-bottom: 20px;
     font-size: 12px;
     padding: 20px 10px;
@@ -408,27 +368,39 @@
 
 @media(min-width: 600px){
   .service_contain > div {
-    width: 30%;
-    margin-right: 20px;
+    width: 31.5%;
+    margin-right: 3%;
     margin-bottom: 30px;
   }
   .service_contain > div:nth-child(2), .service_contain > div:nth-child(4){
-    margin-right: 20px;
+    margin-right: 2.5%;
   }
   .service_contain > div:nth-child(3){
     margin-right: 0px;
   }
 }
 @media(min-width: 700px){
+  .service_contain{
+    margin-top: 50px;
+  }
   .service_contain > div {
     font-size: 18px;
     padding: 30px 20px;
+  }
+  .service_txt_wrapper_contain {
+    color: #3f3f3f;
+    font-size: 40px;
+  }
+  .service_txt_wrapper_contain:before {
+    top: 9px;
   }
 }
 
 @media(min-width: 1200px){
   .service_contain{
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .service_contain > div {
     width: 18%;
